@@ -1,0 +1,391 @@
+@font-face {
+	font-family: Roboto, sans-serif;
+	src: url(./fonts/Roboto-Regular.ttf) format(truetype);
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+header {
+	width: 100%;
+	background-color:#E5E5E5;
+	
+}
+.container1 {
+	width:1100px;
+	height:150px;
+	display:grid;
+	grid-template-columns:1fr 133px 133px;
+	margin:0 auto;
+	align-items:center;
+
+}
+.txt1container {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}	
+.txt2container {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-align:center;
+}
+.txt3container {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-align:center;
+}
+.container3 {
+	width: 1110px;
+	height: 100px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin:0 auto;
+	align-items:center;
+}
+.img3 {
+	width: 60px;
+	height: 50px;
+	display:flex;
+	justify-content:flex-start;
+}
+.txtcont4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+.container4 {
+	display:flex;
+	justify-content:flex-end;
+	grid-column:3;
+	margin:5px;
+
+	
+	
+}
+.backetbut {
+	background-image: url(../img/backet.svg);
+	background-size:15px 11px;
+	background-position:7px 10px;
+	background-repeat:no-repeat;
+	width: 115px;
+	height:38px;
+	
+	
+}
+.img4 {
+	background-image: url(../img/backetshop.svg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 15px;
+	height: 11px;
+	
+}
+.txtcont5 {
+	grid-column:2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}	
+.container5 {
+	width:100%;
+	height:50px;
+	background-color: #FFAF1E;
+	margin:0 auto;
+	
+}
+.items5 {
+	display:flex;
+	width:1110px;
+	height:50px;
+	margin:0 auto;
+	align-items:center;
+	justify-content:space-around;
+}
+.txtcontent5-1 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-2 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-3 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-4 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-5 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-6 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.txtcontent5-7 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.containersearch {
+	box-sizing:border-box;
+	max-width: 1110px;
+	height:110px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	margin-top:15px;
+}
+.containersearch >.itemscontainersearch {
+	display: flex;
+	flex-wrap:wrap;
+}
+.containersearch >.itemscontainersearch > .txtsearch1{
+	font-family: 'Roboto', sans-serif;
+	padding:15px;
+}
+.containersearch >.containerbar > .txtsearch2{
+	font-family: 'Roboto', sans-serif;
+	padding:15px;
+}
+.containersearch >.containerbar >.searchbar {
+	max-width:964px;
+	height:38px;
+	border-radius:3px;
+	background-color:#E4E4E4;
+	margin:5px;
+}
+.containersearch >.itemscontainersearch >.knopkasearch{
+	
+}
+.containersearch >.containerbar >.knopkasearch >.searchbutton {
+	border-radius:3px;
+	background-color:#FFAF1E;
+	width:96px;
+	height: 38px;
+	margin:5px;
+}
+.containerbar {
+	display:flex;
+
+	align-items:center;
+
+}
+main {
+	flex-wrap:wrap;
+	box-sizing: border-box;
+	width: 100%;
+	background-color:#E5E5E5;
+}
+.containerimages {
+	width: 1100px;
+	height:720px;
+	border:1px solid black;
+	margin:0 auto;
+	padding:5px;
+	
+}
+.itemsimages {
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+}
+.motorcontainer {
+	border:1px solid black;
+	width: 416px;
+	height:190px;
+	background-color:white;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.imgmotor {
+	text-align:center;
+}
+.txtmotor {
+	font-family: 'Roboto', sans-serif;
+}
+.lihtarcontainer {
+	width: 348px;
+	height:190px;
+	background-color:white;
+	border:1px solid black;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.txtimagesmark {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin:5px;
+	
+}
+.Hyundaicontainer {
+	box-sizing:border-box;
+	background-color:white;
+	width:208px;
+	height: 190px;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.imgHyundai {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.txtkatalog1 {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin:5px;
+}
+.txtkatalog2 {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin:5px;
+
+}
+.katalog {
+	width:181px;
+	height:38px;
+	background-color: #FFAF1E;
+	
+}
+.txtkatalog3 {
+	width:100%;
+	display:block;
+	text-align:center;
+	font-size:20px;
+	
+}
+footer {
+	background-color:#E5E5E5;
+	flex-wrap:wrap;
+	
+	width: 100%;
+	justify-items:center;
+}
+.containerlocation {
+	box-sizing:border-box;
+	display:grid;
+	grid-template-columns: 1fr 210px 1fr;
+	max-width:1110px;
+	height:406px;
+	margin:0 auto;
+	border:1px solid black;
+	padding:10px;
+
+}
+.itemslocation {
+	display:flex;
+	flex-wrap:wrap;
+	padding:5px;
+	margin:5px;
+}
+.txtlocation1 {
+	margin:5px;
+	font-family: 'Roboto', sans-serif;
+}
+.txtlocation2 {
+	margin:5px;
+	font-family: 'Roboto', sans-serif;
+}
+.imagelocation1 {
+	grid-column:1;
+}
+.imagelocation2 {
+	grid-column:2;
+	margin: 5px;
+}
+.imagelocation3 {
+	grid-column:2;
+	margin: 5px;
+}
+.txtlocation3 li {
+	color:yellow;
+}
+.txtlink3 {
+	text-decoration:none;
+	color:black;
+	list-style:disc;
+	line-height:25px;
+}
+.blabla li { 
+	list-style: disc;
+	color: #FFD800;
+	line-height: 22px;
+}
+.liclass {
+	color:black;
+}
+.txtend {
+	grid-column:3;
+
+}
+.end1 {
+	width:100%;
+	text-align:center;
+}
+.end2 {
+	width:100%;
+	text-align:center;
+}
+.pereiti {
+	width:181px;
+	height:38px;
+	background-color:#FFAF1E;
+	border-radius:3px;
+}
+@media (max-width: 1200px) {
+	.container1 {
+		width: calc(100%/12*11);
+	}
+	.items5 {
+		width: calc(100%/12*11);
+	}
+	.itemscontainersearch {
+		flex-wrap:nowrap;
+		width: calc(100%/12*11);
+	}
+	.containersearch {
+		width: calc(100%/12*11);
+	}	
+	.searchbar {
+		max-width:764px;
+	}
+}
+@media (max-width: 992px) {
+	
+}
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 520px) {
+	
+}
+@media (max-width: 320px) {
+	
+}
+
+
+.containertraid > .itemstraid {
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+	grid-template-rows: 140px;
+}
+.LTCimg {
+	display:flex;
+	flex-direction:column;
+}
